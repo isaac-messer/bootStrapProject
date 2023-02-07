@@ -3,6 +3,50 @@ html, head, body, div, h1, h2, h3, p, a, span {
   padding: 0;
 }
 
+body {
+  height: 100vh;
+}
+
 #container {
   background-image: url(images/maxresdefault.jpg);
+  height: 90vh;
+}
+#container h3 {
+  padding-top: 5vh;
+  font-size: 2.75vw;
+}
+#container h1 {
+  padding-top: 5vh;
+  font-size: 6vw;
+}
+#container h2 {
+  padding-top: 7vh;
+}
+#container .button {
+  padding-top: 7vh;
+}
+#container .button input {
+  font-size: 2.75vw;
+  border-radius: 30px;
+}
+#container .about {
+  padding-top: 7vh;
+}
+#container .about h3 {
+  font-size: 2vw;
+  padding-top: 0;
+}
+#container .about .middle {
+  border-left: 2px solid #FFC107;
+  border-right: 2px solid #FFC107;
+}
+
+.nav {
+  background-color: white;
+  height: 10vh;
+  padding: 3vh 0;
+}
+.nav a {
+  color: #000;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
