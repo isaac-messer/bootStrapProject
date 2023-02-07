@@ -1,0 +1,8 @@
+html, head, body, div, h1, h2, h3, p, a, span {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  background-image: url(images/maxresdefault.jpg);
+}/*# sourceMappingURL=style.css.map */
